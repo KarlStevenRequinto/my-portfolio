@@ -4,11 +4,10 @@ import nextjs from "./nextjs.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import shuttle from "./shuttle.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -27,9 +26,9 @@ import collins from "./company/collins.png";
 import ubiquity from "./company/ubiquity.png";
 import pointwest from "./company/pointwest.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import dota2draftapp from "./dota2draftapp.png";
+import admindashboard from "./admindashboard.png";
+import threadsclone from "./threadsclone.png";
 
 export {
   logo,
@@ -38,10 +37,10 @@ export {
   mobile,
   web,
   github,
+  shuttle,
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -58,7 +57,7 @@ export {
   collins,
   ubiquity,
   pointwest,
-  carrent,
-  jobit,
-  tripguide,
+  dota2draftapp,
+  admindashboard,
+  threadsclone,
 };

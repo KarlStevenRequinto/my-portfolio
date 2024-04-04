@@ -35,7 +35,7 @@ const About = () => {
             </motion.div>
 
             <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-                I've been through over 10 jobs in my life. I was licensed Electronics Engineer, I found my passion for coding during the pandemic.
+                I've been through over 10 jobs in my life. I was licensed Electronics Engineer who found passion for coding during the pandemic.
                 Determined to embrace a new career path, I transitioned into software development. Now, as a stay-at-home dad, web developer, I
                 couldn't be happier. For over 3 years, I focused on web development, specializing in crafting dynamic web applications using React,
                 Next.js, and Three.js. I love learning new things and enjoy building cool stuff. Let's work together to bring your ideas to life!

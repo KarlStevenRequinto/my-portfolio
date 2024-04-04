@@ -13,15 +13,14 @@ import {
     mongodb,
     git,
     figma,
-    docker,
     tonghsing,
     ubiquity,
     pointwest,
     toshiba,
     collins,
-    carrent,
-    jobit,
-    tripguide,
+    dota2draftapp,
+    admindashboard,
+    threadsclone,
     threejs,
 } from "../assets";
 
@@ -103,10 +102,6 @@ const technologies = [
     {
         name: "figma",
         icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
     },
 ];
 
@@ -204,12 +199,56 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Dota 2 Draft App",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Since I'm also a gamer, I created web-based platform that allows users to play around the drafting of heroes in Dota 2. This tool is designed to enhance your drafting experience in Dota 2 ranked games. Go try it yourself!",
+        tags: [
+            {
+                name: "next.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "context api",
+                color: "green-text-gradient",
+            },
+            {
+                name: "opendota api",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: dota2draftapp,
+        source_code_link: "https://github.com/KarlStevenRequinto/Dota-Draft-App",
+        deploy_link: "https://dota-draft-app.vercel.app/home"
+    },
+    {
+        name: "React Admin Dashboard",
+        description:
+            "React Admin Dashboard App with Theming, Tables, Charts, Calendar, Kanban, Text Editor, and Color-Picker. This includes a beautiful view of all of the most important metrics such as earnings, recent transactions, sales overview, and more.",
         tags: [
             {
                 name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "syncfusion",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: admindashboard,
+        source_code_link: "https://github.com/KarlStevenRequinto/react-admin-dashboard",
+        deploy_link: "https://lerd-shop-online.netlify.app/"
+    },
+    {
+        name: "Threads App Clone",
+        description:
+            "This is a clone of the new Threads Application. This app gained over 100 million signups in less than 5 days. Surpassing ChatGPT and TikTok making it the fastest-growing app ever!",
+        tags: [
+            {
+                name: "nextjs",
                 color: "blue-text-gradient",
             },
             {
@@ -221,50 +260,9 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: threadsclone,
+        source_code_link: "https://github.com/KarlStevenRequinto/threads-clone-nextjs",
+        deploy_link: "https://threads-clone-nextjs-six.vercel.app/"
     },
 ];
 
