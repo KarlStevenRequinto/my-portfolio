@@ -31,13 +31,14 @@ const About = () => {
         <>
             <motion.div variants={textVariant()}>
                 <p className={styles.sectionSubText}>Introduction</p>
-                <h2 className={styles.sectionHeadText}>Overview.</h2>
+                <h2 className={styles.sectionHeadText}>Here's my story.</h2>
             </motion.div>
 
             <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-                I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and
-                Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that
-                solve real-world problems. Let's work together to bring your ideas to life!
+                I've been through over 10 jobs in my life. I was licensed Electronics Engineer, I found my passion for coding during the pandemic.
+                Determined to embrace a new career path, I transitioned into software development. Now, as a stay-at-home dad, web developer, I
+                couldn't be happier. For over 3 years, I focused on web development, specializing in crafting dynamic web applications using React,
+                Next.js, and Three.js. I love learning new things and enjoy building cool stuff. Let's work together to bring your ideas to life!
             </motion.p>
 
             <div className="mt-20 flex flex-wrap gap-10">
