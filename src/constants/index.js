@@ -1,7 +1,7 @@
 import {
     mobile,
-    backend,
-    creator,
+    reactnative,
+    nextjs,
     web,
     javascript,
     typescript,
@@ -46,16 +46,16 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "React JS Developer",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
-        icon: backend,
+        title: "React Native Developer",
+        icon: reactnative,
     },
     {
-        title: "Content Creator",
-        icon: creator,
+        title: "Nextjs Developer",
+        icon: nextjs,
     },
 ];
 
@@ -167,6 +167,7 @@ const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
+    
 ];
 
 const testimonials = [
