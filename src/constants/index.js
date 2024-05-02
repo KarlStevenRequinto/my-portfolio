@@ -287,7 +287,7 @@ const projects = [
                 color: "blue-text-gradient",
             },
         ],
-        image: threadsclone,
+        image: vidshare,
         source_code_link: "https://github.com/KarlStevenRequinto/vidshare-react-native",
     },
 ];
