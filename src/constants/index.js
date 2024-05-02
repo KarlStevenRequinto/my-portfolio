@@ -22,6 +22,7 @@ import {
     admindashboard,
     threadsclone,
     threejs,
+    vidshare
 } from "../assets";
 
 export const navLinks = [
@@ -218,7 +219,7 @@ const projects = [
         ],
         image: dota2draftapp,
         source_code_link: "https://github.com/KarlStevenRequinto/Dota-Draft-App",
-        deploy_link: "https://dota-draft-app.vercel.app/home"
+        deploy_link: "https://dota-draft-app.vercel.app/home",
     },
     {
         name: "React Admin Dashboard",
@@ -240,7 +241,7 @@ const projects = [
         ],
         image: admindashboard,
         source_code_link: "https://github.com/KarlStevenRequinto/react-admin-dashboard",
-        deploy_link: "https://lerd-shop-online.netlify.app/"
+        deploy_link: "https://lerd-shop-online.netlify.app/",
     },
     {
         name: "Threads App Clone",
@@ -262,7 +263,32 @@ const projects = [
         ],
         image: threadsclone,
         source_code_link: "https://github.com/KarlStevenRequinto/threads-clone-nextjs",
-        deploy_link: "https://threads-clone-nextjs-six.vercel.app/"
+        deploy_link: "https://threads-clone-nextjs-six.vercel.app/",
+    },
+    {
+        name: "VidShare",
+        description:
+            "Built with React Native for seamless user experiences, Animatable for captivating animations, and integrated with the dependable backend systems of Appwrite, this app showcases impressive design and functionality, enabling seamless sharing of AI videos within the community.",
+        tags: [
+            {
+                name: "react native",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "expo",
+                color: "green-text-gradient",
+            },
+            {
+                name: "nativewind",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "appwrite",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: threadsclone,
+        source_code_link: "https://github.com/KarlStevenRequinto/vidshare-react-native",
     },
 ];
 
