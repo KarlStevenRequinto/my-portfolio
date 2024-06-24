@@ -19,7 +19,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import react_vite from "./react_vite.png"
 import tonghsing from "./company/tonghsing.png";
 import toshiba from "./company/toshiba.png";
 import collins from "./company/collins.png";
@@ -61,4 +61,5 @@ export {
     admindashboard,
     threadsclone,
     vidshare,
+    react_vite
 };

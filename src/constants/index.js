@@ -22,7 +22,9 @@ import {
     admindashboard,
     threadsclone,
     threejs,
-    vidshare
+    vidshare,
+    reactnative,
+    react_vite
 } from "../assets";
 
 export const navLinks = [
@@ -52,6 +54,10 @@ const services = [
     {
         title: "Nextjs Developer",
         icon: nextjs,
+    },
+    {
+        title: "React Native Developer",
+        icon: reactnative,
     },
 ];
 
@@ -257,7 +263,7 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "tailwind css",
                 color: "pink-text-gradient",
             },
         ],
@@ -289,6 +295,28 @@ const projects = [
         ],
         image: vidshare,
         source_code_link: "https://github.com/KarlStevenRequinto/vidshare-react-native",
+    },
+    {
+        name: "HooBank Landing Page",
+        description:
+            "Welcome to HooBank. Your trusted partner in financial success. Experience seamless banking with personalized services, secure transactions, and innovative solutions. This platform is built with React, Tailwind CSS, and Vite to ensure a fast, responsive, and modern user experience.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwind css",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "vite",
+                color: "blue-text-gradient",
+            },
+        ],
+        image: react_vite,
+        source_code_link: "https://github.com/KarlStevenRequinto/react-vite-modern-landing-page",
+        deploy_link: "https://silver-belekoy-417469.netlify.app/",
     },
 ];
 
